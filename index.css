@@ -23,8 +23,10 @@
 	margin:auto;
 	height:960px;
 	width:960px;
-	padding: 0;
-	
+	padding: 0;	
+}
+.container{
+	box-shadow: 1px 1px 13px red;	
 }
 .grid {
 	margin:0;

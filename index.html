@@ -10,12 +10,21 @@
 	
 <center id="newGrid"><button class="newGrid"><h2>Select New Grid</h2></button></center><br>
 <!-- <center>Pick your favorite color<input type="color" class="color_picker" id="1" ></center> -->
-<center><h3>Pick your favorite color</h3>
-<div class="color_pick">
-	<input type="color" id="pick"> 
+<div class="row">
+	<div class="col-sm-6">
+		<center><h3>Pick your favorite color</h3>
+		<div class="color_pick">
+			<input type="color" id="pick"> 
+		</div>
+		</center>
+	</div>
+	<div class="col-sm-6">
+		<center>
+			<button id="eraser" onclick="erase_color()">Eraser</button>
+		</center>
+	</div>
 </div>
-</center>
-<div id="container"></div>
+<div id="container" class="container"></div>
 
 <br><br>
 

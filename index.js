@@ -58,6 +58,11 @@ function createGrid(x) {
       });
     });
   });
-
+function erase_color()
+{
+  container.addEventListener("mouseover",e => {
+    e.target.style.backgroundColor = null;
+  })
+}
 
 

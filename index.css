@@ -11,7 +11,7 @@
 }
 #newGrid
 {
-	box-shadow: 1px 1px 13px red;
+	box-shadow: 1px 1px 13px rgb(255, 0, 0);
 	margin-left: 20%;
 	margin-right: 20%;
 } 

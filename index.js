@@ -28,7 +28,7 @@ function createGrid(x) {
   };
 
   document.addEventListener("DOMContentLoaded", function() {
-    createGrid(16);
+    createGrid(24);
 
     var gridItems = document.querySelectorAll(".grid");
     gridItems.forEach(function(item) {
@@ -49,3 +49,13 @@ function createGrid(x) {
       });
     });
   });
+
+
+
+  const color = document.getElementById('favcolor').value;
+
+document.querySelectorAll(".row").forEach(function(row) {
+  row.addEventListener("mouseover", function() {
+    this.style.backgroundColor = color;
+  });
+});

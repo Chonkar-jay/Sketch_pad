@@ -61,8 +61,7 @@ function createGrid(x) {
 function erase_color()
 {
   container.addEventListener("mouseover",e => {
+    // this.style.backgroundColor = white;
     e.target.style.backgroundColor = null;
   })
 }
-
-
